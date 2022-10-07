@@ -35,6 +35,7 @@ module.exports = {
       "@components": path.resolve(__dirname, "..", "src/components"),
       "@images": path.resolve(__dirname, "..", "src/resources/images"),
       "@redux": path.resolve(__dirname, "..", "src/redux"),
+      "@style": path.resolve(__dirname, "..", "src/components/scss"),
       "@src": path.resolve(__dirname, "..", "src"),
       "@API": path.resolve(__dirname, "..", "src/API"),
     },
