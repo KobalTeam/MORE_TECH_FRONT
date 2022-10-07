@@ -4,7 +4,8 @@
     "typeRoots": ["src/types/"],
     "paths": {
       "types/*": ["src/types/*"],
-      "@Components/*": ["src/components/*"],
+      "@components/*": ["src/components/*"],
+      "@style/*": ["src/components/scss/*"],
       "@images/*": ["src/resources/images/*"],
       "@redux/*": ["src/redux/*"],
       "@src/*": ["src/*"],
