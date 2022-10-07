@@ -32,7 +32,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      "@Components": path.resolve(__dirname, "..", "src/components"),
+      "@components": path.resolve(__dirname, "..", "src/components"),
       "@images": path.resolve(__dirname, "..", "src/resources/images"),
       "@redux": path.resolve(__dirname, "..", "src/redux"),
       "@src": path.resolve(__dirname, "..", "src"),
