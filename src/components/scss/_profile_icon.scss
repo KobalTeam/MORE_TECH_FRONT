@@ -1,0 +1,9 @@
+@import '_vars.scss';
+.profile-icon-btn {
+    @include button;
+    @include default-border-radius;
+}
+.profile-icon{
+    display: flex;
+    margin-left: auto;
+}

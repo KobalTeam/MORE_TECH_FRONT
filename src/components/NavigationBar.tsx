@@ -1,11 +1,11 @@
 import React from "react";
 
 const NavigationBar = (): JSX.Element => (
-  <div className="nav_bar">
-    <ul className="nav_bar_list">
-      <li>Activities</li>
-      <li>Marketplace</li>
-      <li>Transfer</li>
+  <div className="nav-bar">
+    <ul className="nav-bar-list">
+      <li className="point">Activities</li>
+      <li className="point">Marketplace</li>
+      <li className="point">Transfer</li>
     </ul>
   </div>
 );
