@@ -1,10 +1,7 @@
-.main_header{
+@import '_vars.scss';
+.main-header{
     background-color: rgb(64, 117, 163);
     display: flex;
-}
-.nav_bar_list{
-    display: flex;
-}
-.profile_icon{
-    display: flex;
+    align-items: center;
+    padding: 1vh 1vw;
 }

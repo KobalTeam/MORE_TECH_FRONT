@@ -1,8 +1,9 @@
 import React from "react";
 
 const Search = (): JSX.Element => (
-  <div>
+  <div className="search">
     <input
+      className="search-field"
       type="search"
       name="search_header"
       placeholder="Search..."

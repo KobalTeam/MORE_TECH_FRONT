@@ -1,0 +1,10 @@
+@import '_vars.scss';
+.search{
+    @include default-margin;
+ }
+ .search-field{
+     @include default-border-radius;
+ }
+ .point{
+     margin-left: 2vw;
+ }
