@@ -1,11 +1,17 @@
 import React from "react";
 
 const NavigationBar = (): JSX.Element => (
-  <div className="nav-bar">
-    <ul className="nav-bar-list">
-      <li className="point">Activities</li>
-      <li className="point">Marketplace</li>
-      <li className="point">Transfer</li>
+  <div className="navbar">
+    <ul className="navbar__list flex">
+      <li className="navbar__item font-nunito ml-4 cursor-pointer">
+        Activities
+      </li>
+
+      <li className="navbar__item font-nunito ml-4 cursor-pointer">
+        Marketplace
+      </li>
+
+      <li className="navbar__item font-nunito ml-4 cursor-pointer">Transfer</li>
     </ul>
   </div>
 );

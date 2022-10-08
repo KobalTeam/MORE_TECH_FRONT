@@ -2,8 +2,10 @@
 .search{
     @include default-margin;
  }
- .search-field{
+ .search__field{
      @include default-border-radius;
+     font-size: 16px;
+     padding: 6px;
  }
  .point{
      margin-left: 2vw;

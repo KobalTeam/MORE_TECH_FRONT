@@ -7,20 +7,22 @@ type Props = {
 };
 
 const Goal: React.FC<Props> = ({ name, localScore, score }) => (
-  <div className="goal">
-    <p className="goal__name">{name}</p>
+  <div className="goal mt-5 mx-5">
+    <p className="goal__name text-xl uppercase text-center font-nunito">
+      {name}
+    </p>
 
-    <div className="goal__content flex flex-row">
-      <div className="goal__coin w-3.5 rounded-full border" />
+    <div className="goal__content flex flex-row mt-3">
+      <div className="goal__coin w-5 rounded-full border bg-white" />
 
-      <div className="goal__bar w-full border rounded-lg relative h-4">
+      <div className="goal__bar w-full rounded-lg relative h-5 ml-2 bg-white">
         <div
-          className="goal__bar_absolute absolute h-4 bg-green-300"
+          className="goal__bar_absolute absolute rounded-lg h-5 bg-green-300"
           style={{ width: "50%" }}
         />
       </div>
 
-      <p className="goal__score">{`${localScore}/${score}`}</p>
+      <p className="goal__score ml-2 font-nunito">{`${localScore}/${score}`}</p>
     </div>
   </div>
 );
