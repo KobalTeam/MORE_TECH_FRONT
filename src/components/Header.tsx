@@ -7,12 +7,15 @@ import ProfileIcon from "@components/ProfileIcon";
 const Header = (): JSX.Element => (
   <div className="main_header">
     <img
+      alt="Logo"
       className="logo"
       src={Logo}
-      alt="Logo"
     />
+
     <Search />
+
     <NavigationBar />
+
     <ProfileIcon />
   </div>
 );

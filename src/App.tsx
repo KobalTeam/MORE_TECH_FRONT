@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "@components/Header";
-import ActivitiesPanel from "@components/ActvitiesPanel";
+import ActivitiesPanel from "@src/Components/ActivitiesPanel";
 import "@style/_all.scss";
 
 function App(): JSX.Element {
