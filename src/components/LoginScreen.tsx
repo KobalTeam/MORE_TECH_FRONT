@@ -1,8 +1,8 @@
+import { useAppDispatch } from "@redux/hooks";
 import React from "react";
 import { useForm } from "react-hook-form";
 
 interface IFormInput {
-  username: string;
   email: string;
   firstName: string;
   lastName: string;
@@ -10,20 +10,18 @@ interface IFormInput {
 }
 
 const LoginScreen: React.FC = () => {
+  const dispatch = useAppDispatch();
   const { register, handleSubmit } = useForm();
+  const onSubmit = data => dispatch(data);
 
   return (
     <div className="h-screen flex items-center justify-center bg-sky-200">
-      <form className="form flex flex-col justify-center">
-        <input
-          {...register("username")}
-          className="block p-2 font-nunito rounded-md"
-          placeholder="Никнейм"
-        />
-
+      <form
+        className="form flex flex-col justify-center"
+        onSubmit={handleSubmit(onSubmit)}>
         <input
           {...register("email")}
-          className="block mt-4 p-2 font-nunito rounded-md"
+          className="block p-2 font-nunito rounded-md"
           placeholder="Email"
         />
 
