@@ -18,7 +18,7 @@ const Goal: React.FC<Props> = ({ name, localScore, score }) => (
       <div className="goal__bar w-full rounded-lg relative h-5 ml-2 bg-white">
         <div
           className="goal__bar_absolute absolute rounded-lg h-5 bg-green-300"
-          style={{ width: "50%" }}
+          style={{ width: `${(localScore / score) * 100}%` }}
         />
       </div>
 

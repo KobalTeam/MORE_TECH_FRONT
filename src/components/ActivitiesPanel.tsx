@@ -5,7 +5,7 @@ import Goal from "@components/Goal";
 const ActivitiesPanel = () => (
   <div className="activitiesPanel w-80 bg-slate-100">
     <Goal
-      localScore={5}
+      localScore={6}
       name="Goal"
       score={10}
     />
