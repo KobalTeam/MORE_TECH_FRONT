@@ -2,10 +2,12 @@ import React from "react";
 import Activities from "@components/Activities";
 
 const RightPanel = (): JSX.Element => (
-  <div className="main-side-bar w-80 bg-slate-100">
-    <p className="text font-nunito text-center mt-5">LATEST ACTIVITIES</p>
+  <div className="main-side-bar w-80 bg-blue-400">
+    <div className="main-side-bar bg-blue-300 rounded-lg m-2 p-2 pb-4">
+      <p className="text-1 font-nunito text-center">LATEST ACTIVITIES</p>
 
-    <Activities list={["Courses", "Mentoring"]} />
+      <Activities list={["Courses", "Mentoring"]} />
+    </div>
   </div>
 );
 

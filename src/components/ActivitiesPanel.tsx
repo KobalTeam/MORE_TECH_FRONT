@@ -3,7 +3,7 @@ import Activities from "@components/Activities";
 import Goal from "@components/Goal";
 
 const ActivitiesPanel = () => (
-  <div className="activitiesPanel w-80 bg-slate-100">
+  <div className="activitiesPanel w-80 bg-blue-300">
     <Goal
       localScore={6}
       name="Goal"

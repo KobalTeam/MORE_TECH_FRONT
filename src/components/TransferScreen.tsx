@@ -5,7 +5,7 @@ const Transfer = () => (
   <>
     <Header />
 
-    <p>какойто transfer</p>
+    <p>какойто trans</p>
   </>
 );
 
