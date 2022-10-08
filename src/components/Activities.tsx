@@ -6,7 +6,7 @@ type Props = {
 
 const Activities: React.FC<Props> = ({ list }) => (
   <div className="bg-white mx-5 mt-3 rounded-md">
-    <ul className="p-4 list-disk">
+    <ul className="list_activities p-4">
       {list.map(elem => (
         <li className="font-nunito">{elem}</li>
       ))}
